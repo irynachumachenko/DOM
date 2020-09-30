@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "lint": "eslint ./src --fix"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.1.1",
     "css-loader": "^4.2.1",
     "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
