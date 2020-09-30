@@ -1,5 +1,5 @@
 
-import './assets/styles/main.scss';
+import './assets/styles/main.css';
 
 import {formatToNumber} from './modules/format.js';
 import {strDecorator} from './modules/str_format.js';
