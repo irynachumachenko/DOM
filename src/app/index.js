@@ -41,13 +41,3 @@ for (let key of Object.keys(honorDesk)) {
 
 
 
-
-// reduced = [...totalPo].reduce((total, current) => {
-//      return total + current;
-// }, 0);
-
-// console.log(reduced);
-
-
-// let test = Number(reduced.innerHTML);
-// console.log(test);
